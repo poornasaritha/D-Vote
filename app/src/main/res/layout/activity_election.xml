@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vote_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/btn_party_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote for Party A"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btn_party_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote for Party B"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btn_party_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote for Party C"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"/>
+
+</LinearLayout>
